@@ -1,5 +1,9 @@
  //=============================================================================
+ // OutlineManager.js
+//=============================================================================
  /*:
+ * @plugindesc Changes the thickness of the font outline
+ * @author Lorg An
  * @param Outline Width
  * @type number
  * @min 0
