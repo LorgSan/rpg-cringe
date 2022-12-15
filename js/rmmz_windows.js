@@ -1385,8 +1385,8 @@ Window_Selectable.prototype.drawBackgroundRect = function(rect) {
     const y = rect.y;
     const w = rect.width;
     const h = rect.height;
-    this.contentsBack.gradientFillRect(x, y, w, h, c1, c2, true);
-    this.contentsBack.strokeRect(x, y, w, h, c1);
+    //this.contentsBack.gradientFillRect(x, y, w, h, c1, c2, true);
+    //this.contentsBack.strokeRect(x, y, w, h, c1);
 };
 
 Window_Selectable.prototype.redrawItem = function(index) {

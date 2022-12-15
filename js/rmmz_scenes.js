@@ -328,10 +328,8 @@ Scene_Boot.prototype.start = function() {
         DataManager.setupEventTest();
         SceneManager.goto(Scene_Map);
     } else {
-        this.checkPlayerLocation(); 
-        DataManager.setupNewGame(); 
-        SceneManager.goto(Scene_Map); 
-    } 
+        this.startNormalGame();
+    }
     this.resizeScreen();
     this.updateDocumentTitle();
 };
