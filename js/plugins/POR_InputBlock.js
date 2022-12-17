@@ -14,6 +14,6 @@
  */
 Poryg_BlockInput = Game_Player.prototype.moveByInput
 Game_Player.prototype.moveByInput = function() {
-    if ($gameSwitches.value(PluginManager.parameters("DisableMovement")["BlockSwitch"])) return;
+    if ($gameSwitches.value(PluginManager.parameters("POR_InputBlock")["BlockSwitch"])) return;
     return Poryg_BlockInput.call(this);
 };
